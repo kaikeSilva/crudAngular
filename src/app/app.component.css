@@ -1,0 +1,18 @@
+.container-links {
+    display: flex;
+    justify-content: space-around;
+    background-color: tomato;
+    color: thistle;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.container-links a {
+    text-decoration: none;
+    color: thistle;
+    transition: color 700ms;
+}
+
+.container-links a:hover {
+    color: white;
+}
