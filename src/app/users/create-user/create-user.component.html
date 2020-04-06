@@ -1,0 +1,24 @@
+<h1 class="titulo-tabela">Criar Usuários</h1>
+<div class="create-container">
+    <input 
+    class="texto" 
+    type="text" 
+    placeholder="nome" 
+    [(ngModel)]="request.name">
+
+    <input 
+    class="texto" 
+    type="text" 
+    placeholder="profissao" 
+    [(ngModel)]="request.job">
+    
+    <button (click)="save()" class="botao">Registrar</button>
+</div>
+
+<div class="show-container" *ngIf="response">
+    <h3>Criado com sucesso</h3>
+    <label> Nome: {{response.name}} </label>
+    <label> profissão: {{response.job}} </label>
+    <label> id: {{response.id}} </label>
+    <label> criado em: {{response.createdAt}} </label>
+</div>

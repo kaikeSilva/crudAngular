@@ -20,3 +20,15 @@ export interface ResponseUsers {
     data: User[];
     ad: Ad;
 }
+
+export interface UserPost {
+    name: string;
+    job: string;
+}
+
+export interface UserPostResponse {
+    name: string;
+    job: string;
+    id: string;
+    createdAt: Date;
+}

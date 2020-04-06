@@ -1,0 +1,60 @@
+input {
+    border: none;
+}
+button {
+    border: none;
+}
+
+.titulo-tabela {
+    padding: 40px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.create-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid tomato;
+}
+
+.show-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.create-container input.texto {
+    width: 60%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: tomato;
+    border-bottom: 1px solid tomato;
+}
+
+.create-container input.texto:focus {
+    outline:1px solid  tomato;
+}
+
+.create-container .botao {
+    background-color: tomato;
+    width: fit-content;
+    padding: 10px;
+    color: thistle;
+}
+
+.create-container .botao:hover {
+    background-color: rgb(236, 70, 41);
+    color: white;
+    cursor: pointer;
+}
